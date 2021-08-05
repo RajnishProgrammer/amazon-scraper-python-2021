@@ -42,7 +42,7 @@ _Example_:
 
 `-k` or `--keyword` - required argument to pass before entering your keyword.
 
-`-p` or `--proxies` - optional argument to enable proxies. To avoid getting blocked I highly recommend using proxies. I'm using [Residential Proxies from Oxylabs](https://oxylabs.io/products/residential-proxy-pool). For highest success rate, I suggest Residential Proxies over Datacenter as they're almost impossible to detect and have the smallest footprint. If you decide to use different proxy provider services keep in mind that you'll have to make some minor adjustments in [get-proxies.py](get-proxies.py) file.
+`-p` or `--proxies` - optional argument to enable proxies. To avoid getting blocked I highly recommend using proxies. I'm using [Residential Proxies from Oxylabs](https://oxylabs.io/products/residential-proxy-pool). For highest success rate, I suggest Residential Proxies over Datacenter as they're almost impossible to detect and have the smallest footprint. If you decide to use different proxy provider services keep in mind that you'll have to make some minor adjustments in [get-proxies](get-proxies.py) file.
 
 `-j` or `--json` - optional argument for storing extracted data in `.json` format. Default output format is `.csv`.
 

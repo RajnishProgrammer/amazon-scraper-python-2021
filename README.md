@@ -18,7 +18,7 @@ A command-line tool for scraping [Amazon](https://www.amazon.com/) product data 
 Using `git clone` (you'll need [git](https://git-scm.com/downloads) installed for this):
 
 ```bash
-git clone https://github.com/jonaskaziukonis96/amazon-scraper-test
+git clone https://github.com/scrapewalrus/amazon-scraper-python-2021
 ```
 
 Or download and extract the `zip` file of the project manually

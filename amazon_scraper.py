@@ -13,7 +13,7 @@ def parse_arguments():
 	parser.add_argument('-k', '--keyword', required=True, help='Enter your keyword')
 	parser.add_argument('-p', action="store_true", help='Enter "-p" to enable proxies')
 	parser.add_argument('-j', '--json', action='store_true')
-	args = vars(parser.parse_args(['-k', 'nike shoes']))
+	args = vars(parser.parse_args())
 	return get_products(args)
 
 BASE_URL = 'https://www.amazon.com'

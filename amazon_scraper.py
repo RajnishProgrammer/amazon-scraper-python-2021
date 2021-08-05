@@ -44,7 +44,6 @@ def get_products(args):
 	while True:
 		resp = session.get(f'https://www.amazon.com/s?k={keyword}&page={page_num}', proxies=proxies, headers=headers)
 		soup = BeautifulSoup(resp.text, 'lxml')
-		print(soup)
 		data = soup.select('div[data-component-type="s-search-result"]')
 
 		for i in data:

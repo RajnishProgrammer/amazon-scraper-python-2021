@@ -30,7 +30,7 @@ Locate `amazon-product-scraper` folder via terminal and type `pip install -r req
 
 ## Usage
 
-To launch the Amazon scraper locate the `amazon-product-scraper` folder via terminal and type `amazon_scraper.py -k "your keyword"`. This will start the program. 
+To launch the Amazon scraper locate the `amazon-product-scraper` folder via terminal and type `amazon_scraper.py -k "your keyword"` (`python amazon_scraper.py -k "your keyword` on MacOS). This will start the program. 
 
 ***NOTE: you must declare either*** `-k` or `--keyword` ***before entering your keyword. It's a required argument.***
 

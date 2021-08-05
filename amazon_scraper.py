@@ -61,7 +61,7 @@ def get_products(args):
 
 			product_data.append(dat)
 
-		pagination = soup.find('li', {'class':'a-last'})
+		pagination = soup.select('ul.a-pagination li.a-last')
 		print(f'Getting page: {page_num} for keyword {args["keyword"].strip()}', end='\r')
 		
 		if pagination:

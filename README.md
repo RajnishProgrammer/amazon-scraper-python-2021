@@ -26,7 +26,7 @@ Or download and extract the `zip` file of the project manually
 You'll also need to install requirements for the project to run.
 Locate `amazon-product-scraper` folder via terminal and type `pip install -r requirements.txt`:
 
-<img src="screenshots/install-requirements.png" width="650" height="200">
+![install-requirements-for-amazon-scraper](screenshots/install-requirements.png)
 
 ## Usage
 
@@ -36,7 +36,7 @@ To launch the Amazon scraper locate the `amazon-product-scraper` folder via term
 
 _Example_:
 
-<img src="screenshots/amazon-scraper-launcher.png" width="650" height="200">
+![amazon-scraper-launcher](screenshots/amazon-scraper-launcher.png)
 
 `amazon_scraper.py` - the name of a scraper file.
 

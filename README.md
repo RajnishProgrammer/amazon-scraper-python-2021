@@ -6,7 +6,7 @@
 
 A command-line tool for scraping [Amazon](https://www.amazon.com/) product data to `CSV` or `JSON` format(s).
 
-![](screenshots/amazon-scraper-action.gif)
+![](screenshots/amazon-scraper-action.png)
 
 ## Requirements
 

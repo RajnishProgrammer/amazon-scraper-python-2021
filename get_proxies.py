@@ -1,7 +1,7 @@
 import random
 
-# Implementation is suited for Oxylabs Residential Proxies (https://oxylabs.io/products/residential-proxy-pool).
-# If you decide to use different service for proxies you'll need to make some minor code adjustments.
+""" Implementation is suited for Oxylabs Residential Proxies (https://oxylabs.io/products/residential-proxy-pool).
+If you decide to use different service for proxies you'll need to make some minor code adjustments. """
 
 
 def get_proxies():
